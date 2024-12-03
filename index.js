@@ -49,10 +49,10 @@ function checkGuess(guess){
         endGame();
     }
     else if(guess < randomNo){
-        displayMessage(`Number Is Too Low`);
+        displayMessage(`Number Is Low`);
     }
     else{
-        displayMessage(`Number Is Too High`);
+        displayMessage(`Number Is High`);
     }
 }
 //console.log(guessSlot);
