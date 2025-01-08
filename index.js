@@ -45,7 +45,7 @@ function validateGuess(guess){
 
 function checkGuess(guess){
     if(guess == randomNo){
-        displayMessage(`🎉🥳You won Babu 😊! you guessed it Right : Random Number was ${randomNo}`);
+        displayMessage(`🎉🥳You won ! you guessed it Right : Random Number was ${randomNo}`);
         endGame();
     }
     else if(guess < randomNo){
